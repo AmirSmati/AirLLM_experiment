@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Model weights and caches
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+models/
+splitted_model/
+.cache/
+huggingface_cache/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
